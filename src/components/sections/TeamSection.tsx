@@ -56,7 +56,7 @@ export function TeamSection({ staffMembers }: TeamSectionProps) {
   const membersToDisplay = staffMembers && staffMembers.length > 0 ? staffMembers : defaultTeamMembers;
 
   return (
-    <SectionWrapper id="team" className="bg-secondary/30 dark:bg-card/50">
+    <SectionWrapper id="team" className="w-[90%] mx-auto bg-secondary/30 dark:bg-card/50">
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-headline font-bold tracking-tight text-primary">
           Meet Our Team

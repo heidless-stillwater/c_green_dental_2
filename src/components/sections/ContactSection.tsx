@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export function ContactSection() {
   return (
-    <SectionWrapper id="contact" className="bg-secondary/30 dark:bg-card/50">
+    <SectionWrapper id="contact" className="w-[90%] mx-auto bg-secondary/30 dark:bg-card/50">
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-headline font-bold tracking-tight text-primary">
           Get In Touch

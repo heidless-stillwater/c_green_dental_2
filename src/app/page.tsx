@@ -17,12 +17,22 @@ const teamData: TeamSectionProps['staffMembers'] = [
     dataAiHint: 'female dentist',
   },
   {
-    name: 'Dr. Michael Chen',
+    name: 'Dr. Jon Snow',
+    role: 'Dentist',
+    description:
+      'Dr. Chen specializes in creating beautiful smiles through advanced orthodontic treatments.',
+    imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-2.jpg',
+    imageAlt: 'Portrait of Dr. Michael Chen',
+    dataAiHint: 'male orthodontist',
+  },
+  {
+    name: 'Dr. Michaela Chen',
     role: 'Orthodontist',
     description:
       'Dr. Chen specializes in creating beautiful smiles through advanced orthodontic treatments.',
-    imageSrc: 'https://placehold.co/200x200.png',
-    imageAlt: 'Portrait of Dr. Michael Chen',
+    imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-3.jpeg',
+
+    imageAlt: 'Portrait of Dr. Michaela Chen',
     dataAiHint: 'male orthodontist',
   },
   {
@@ -30,7 +40,7 @@ const teamData: TeamSectionProps['staffMembers'] = [
     role: 'Dental Hygienist',
     description:
       'Sarah is dedicated to educating patients on oral hygiene and providing thorough cleanings.',
-    imageSrc: 'https://placehold.co/200x200.png',
+    imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-1.jpg',
     imageAlt: 'Portrait of Sarah Adams, RDH',
     dataAiHint: 'female hygienist',
   },
