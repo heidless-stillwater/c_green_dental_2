@@ -18,7 +18,7 @@ export function ContactSection() {
         </p>
       </div>
       <div className="grid md:grid-cols-2 gap-8 items-start">
-        <MapEmbed className="min-h-[300px] md:min-h-[400px]" />
+        <MapEmbed className="min-h-[300px] md:min-h-[400px]" center={{ lat: 51.5861, lng: -0.0795 }} zoom={15} />
         <Card className="shadow-lg">
           <CardHeader>
             <CardTitle className="text-2xl text-primary">Contact Details</CardTitle>
@@ -28,7 +28,7 @@ export function ContactSection() {
               <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
               <div>
                 <h4 className="font-semibold">Address</h4>
-                <p className="text-foreground/80">123 Dental Street, Smileytown, ST 54321</p>
+                <p className="text-foreground/80">200 W Green Rd, London N15 5AG</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
@@ -36,7 +36,7 @@ export function ContactSection() {
               <div>
                 <h4 className="font-semibold">Phone</h4>
                 <Link href="tel:+1234567890" className="text-foreground/80 hover:text-primary transition-colors">
-                  (123) 456-7890
+                  0208 800 7373
                 </Link>
               </div>
             </div>

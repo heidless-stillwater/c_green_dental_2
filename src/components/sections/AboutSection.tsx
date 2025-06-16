@@ -14,8 +14,8 @@ export function AboutSection() {
 
   return (
     <SectionWrapper id="about" className="w-[90%] mx-auto bg-secondary/30 dark:bg-card/50">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl sm:text-4xl font-headline font-bold tracking-tight text-primary">
+ <div className="text-center mb-12 max-w-4xl mx-auto">
+ <h2 className="text-3xl sm:text-4xl font-headline font-bold tracking-tight text-primary">
           About Green Dental
         </h2>
         <p className="mt-4 text-lg text-foreground/80 max-w-2xl mx-auto">
@@ -37,7 +37,7 @@ export function AboutSection() {
           </CardContent>
         </Card>
         <div className="space-y-4">
-            <h3 className="text-2xl font-semibold text-primary">Why Choose Us?</h3>
+ <h3 className="text-2xl font-semibold text-primary text-center md:text-left">Why Choose Us?</h3>
             <ul className="space-y-3">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-start">
