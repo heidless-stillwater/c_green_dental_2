@@ -2,38 +2,59 @@
 import { SectionWrapper } from '@/components/ui/SectionWrapper';
 import { StaffCard } from '@/components/StaffCard';
 
-const teamMembers = [
+// Define the type for a staff member, aligning with StaffCardProps
+interface StaffMember {
+  name: string;
+  role: string;
+  imageSrc: string;
+  imageAlt: string;
+  dataAiHint?: string;
+  description?: string; // Optional: for data completeness, not directly used by StaffCard unless StaffCard is modified
+}
+
+export interface TeamSectionProps {
+  staffMembers?: StaffMember[];
+}
+
+// Default team members if no prop is passed
+const defaultTeamMembers: StaffMember[] = [
   {
     name: "Dr. Evelyn Reed",
     role: "Lead Dentist",
     imageSrc: "https://placehold.co/200x200.png",
     imageAlt: "Portrait of Dr. Evelyn Reed",
-    dataAiHint: "female dentist"
+    dataAiHint: "female dentist",
+    description: "With over 15 years of experience, Dr. Reed is passionate about providing comprehensive and compassionate dental care."
   },
   {
-    name: "Mark Olsen",
+    name: "Mark Olsen", // Example, matching previous internal data structure
     role: "Dental Hygienist",
     imageSrc: "https://placehold.co/200x200.png",
     imageAlt: "Portrait of Mark Olsen",
-    dataAiHint: "male hygienist"
+    dataAiHint: "male hygienist",
+    description: "Mark is dedicated to patient education and thorough cleanings."
   },
   {
-    name: "Sarah Chen",
+    name: "Sarah Chen", // Example
     role: "Office Manager",
     imageSrc: "https://placehold.co/200x200.png",
     imageAlt: "Portrait of Sarah Chen",
-    dataAiHint: "female manager"
+    dataAiHint: "female manager",
+    description: "Sarah ensures the clinic runs smoothly and efficiently."
   },
   {
-    name: "Dr. Ben Carter",
+    name: "Dr. Ben Carter", // Example
     role: "Associate Dentist",
     imageSrc: "https://placehold.co/200x200.png",
     imageAlt: "Portrait of Dr. Ben Carter",
-    dataAiHint: "male dentist"
+    dataAiHint: "male dentist",
+    description: "Dr. Carter provides a wide range of dental treatments with a gentle approach."
   },
 ];
 
-export function TeamSection() {
+export function TeamSection({ staffMembers }: TeamSectionProps) {
+  const membersToDisplay = staffMembers && staffMembers.length > 0 ? staffMembers : defaultTeamMembers;
+
   return (
     <SectionWrapper id="team" className="bg-secondary/30 dark:bg-card/50">
       <div className="text-center mb-12">
@@ -45,7 +66,7 @@ export function TeamSection() {
         </p>
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {teamMembers.map((member) => (
+        {membersToDisplay.map((member) => (
           <StaffCard
             key={member.name}
             name={member.name}
