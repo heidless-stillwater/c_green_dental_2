@@ -37,7 +37,7 @@ export function Header() {
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="#home" onClick={(e) => scrollToSection(e, "#home")} className="flex items-center space-x-2">
           <Sparkles className="h-6 w-6 text-primary" />
-          <span className="font-bold text-lg">Green Dental</span>
+          <span className="font-bold text-lg">The Green Dental Surgery</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           {navItems.map((item) => (
