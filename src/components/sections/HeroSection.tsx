@@ -35,7 +35,7 @@ export function HeroSection() {
         </div>
         <div className="rounded-lg overflow-hidden shadow-2xl">
           <Image
-            src="https://placehold.co/600x400.png"
+            src="https://storage.googleapis.com/c_the_green_dental_bucket/dental-practice-0-live.jpg"
             alt="Modern dental clinic interior"
             width={600}
             height={400}
