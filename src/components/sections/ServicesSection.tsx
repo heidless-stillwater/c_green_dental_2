@@ -7,7 +7,8 @@ const services = [
   {
     title: "General Dentistry",
     description: "Routine check-ups, cleanings, fillings, and preventive care to maintain your oral health.",
-    imageSrc: "https://storage.googleapis.com/c_the_green_dental_bucket/general_dentistry-live.jpg",
+    // imageSrc: "https://storage.googleapis.com/c_the_green_dental_bucket/general_dentistry-live.jpg",
+    imageSrc: "/images/general_dentistry-live.jpg",
     imageAlt: "General Dentistry tools",
     Icon: HeartPulse,
     dataAiHint: "dental checkup"
@@ -15,7 +16,8 @@ const services = [
   {
     title: "Cosmetic Dentistry",
     description: "Enhance your smile with teeth whitening, veneers, bonding, and smile makeovers.",
-    imageSrc: "https://storage.googleapis.com/c_the_green_dental_bucket/cosmetic-dentistry-live.jpg",
+    // imageSrc: "https://storage.googleapis.com/c_the_green_dental_bucket/cosmetic-dentistry-live.jpg",
+    imageSrc: "/images/cosmetic-dentistry-live.jpg",
     imageAlt: "Cosmetic Dentistry example",
     Icon: Smile,
     dataAiHint: "teeth whitening"
@@ -23,7 +25,8 @@ const services = [
   {
     title: "Restorative Dentistry",
     description: "Repair and restore damaged teeth with crowns, bridges, dentures, and dental implants.",
-    imageSrc: "https://storage.googleapis.com/c_the_green_dental_bucket/restorative-dentistry-live.jpeg",
+    // imageSrc: "https://storage.googleapis.com/c_the_green_dental_bucket/restorative-dentistry-live.jpeg",
+    imageSrc: "/images/restorative-dentistry-live.jpeg",
     imageAlt: "Dental crowns",
     Icon: Stethoscope, // Using Stethoscope as a placeholder for restoration concept
     dataAiHint: "dental implant"
@@ -31,7 +34,8 @@ const services = [
   {
     title: "Advanced Diagnostics",
     description: "Utilizing modern technology for precise diagnosis, including digital X-rays and 3D imaging.",
-    imageSrc: "https://storage.googleapis.com/c_the_green_dental_bucket/advanced-diagnostics-live.jpg",
+    // imageSrc: "https://storage.googleapis.com/c_the_green_dental_bucket/advanced-diagnostics-live.jpg",
+    imageSrc: "/images/advanced-diagnostics-live.jpg",
     imageAlt: "Dental X-ray machine",
     Icon: Microscope,
     dataAiHint: "dental technology"

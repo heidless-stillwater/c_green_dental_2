@@ -12,7 +12,8 @@ const teamData: TeamSectionProps['staffMembers'] = [
     role: 'Lead Dentist',
     description:
       'With over 15 years of experience, Dr. Reed is passionate about providing comprehensive and compassionate dental care.',
-    imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-0.jpg',
+      // imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-0-live.jpg',
+    imageSrc: '/images/headshot-0-live.jpg',
     imageAlt: 'Portrait of Dr. Evelyn Reed',
     dataAiHint: 'female dentist',
   },
@@ -21,7 +22,8 @@ const teamData: TeamSectionProps['staffMembers'] = [
     role: 'Dentist',
     description:
       'Dr. Chen specializes in creating beautiful smiles through advanced orthodontic treatments.',
-    imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-2.jpg',
+    // imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-2-live.jpg',
+    imageSrc: '/images/headshot-2-live.jpg',
     imageAlt: 'Portrait of Dr. Michael Chen',
     dataAiHint: 'male orthodontist',
   },
@@ -30,8 +32,8 @@ const teamData: TeamSectionProps['staffMembers'] = [
     role: 'Orthodontist',
     description:
       'Dr. Chen specializes in creating beautiful smiles through advanced orthodontic treatments.',
-    imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-3.jpeg',
-
+    // imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-3-live.jpeg',
+    imageSrc: '/images/headshot-3-live.jpg',
     imageAlt: 'Portrait of Dr. Michaela Chen',
     dataAiHint: 'male orthodontist',
   },
@@ -40,7 +42,8 @@ const teamData: TeamSectionProps['staffMembers'] = [
     role: 'Dental Hygienist',
     description:
       'Sarah is dedicated to educating patients on oral hygiene and providing thorough cleanings.',
-    imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-1.jpg',
+    // imageSrc: 'https://storage.googleapis.com/c_the_green_dental_bucket/headshot-1-live.jpg',
+    imageSrc: '/images/headshot-1-live.jpg',
     imageAlt: 'Portrait of Sarah Adams, RDH',
     dataAiHint: 'female hygienist',
   },
